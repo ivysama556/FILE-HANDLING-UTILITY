@@ -26,16 +26,19 @@ The program should implement the following functionalities:
 Users should be able to enter text, which gets stored in a file.
 If the file already exists, its content should be overwritten with the new input.
 Use FileWriter and BufferedWriter to handle the writing operation efficiently.
+
 2️⃣ Read from a File
 
 The program should allow users to read and display the contents of a specified file.
 If the file does not exist, an appropriate error message should be displayed.
 Use FileReader and BufferedReader to read the file efficiently line by line.
+
 3️⃣ Modify (Append) a File
 
 Users should be able to add new content to an existing file without deleting its previous data.
 The program should append the new input to the file instead of overwriting it.
 Use FileWriter in append mode (true) to ensure existing content remains unchanged.
+
 4️⃣ User-Friendly Interface
 
 The program should provide a menu-driven system that allows users to navigate between different file operations easily.
