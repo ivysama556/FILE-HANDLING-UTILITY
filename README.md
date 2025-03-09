@@ -47,15 +47,22 @@ Expected Deliverables
 To successfully complete this task, the following deliverables should be submitted:
 
 ✔ A functional Java program implementing file handling operations.
+
 ✔ Proper documentation and comments in the code to improve readability.
+
 ✔ A GitHub repository containing the complete source code.
+
 ✔ A well-structured README file that explains the program’s functionality, installation, and usage.
 
 # Technical Implementation
 The program utilizes Java’s built-in java.io package, which provides various classes for handling files efficiently:
+
 🔹 FileWriter – Writes characters to a file.
+
 🔹 BufferedWriter – Improves performance by buffering file write operations.
+
 🔹 FileReader – Reads characters from a file.
+
 🔹 BufferedReader – Reads text from a file efficiently, line by line.
 
 Additionally, exception handling using try-with-resources ensures proper resource management and prevents memory leaks.
